@@ -1,0 +1,17 @@
+name: Neato Starter
+type: theme
+description: Custom sub-theme based on the the Neato base theme.
+base theme: neato
+core: 8.x
+libraries:
+  - sa_neato/global-styling
+  - sa_neato/global-scripts
+regions:
+  header: Header
+  featured: Featured
+  breadcrumb: Breadcrumb
+  sidebar_first: 'Sidebar first'
+  content: Content
+  sidebar_second: 'Sidebar second'
+  footer_top: 'Footer Top'
+  footer_bottom: 'Footer Bottom'
