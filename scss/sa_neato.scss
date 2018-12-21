@@ -32,8 +32,11 @@
 
 // Import layout.
 @import "base/layout";
+// @import "base/typography";
 
 // Import Drupal element overrides
+@import "common/header";
+@import "common/page";
 @import "common/messages";
 @import "common/tables";
 @import "common/tasks";
@@ -43,8 +46,11 @@
 @import "media/imager";
 @import "media/views-media";
 
+@import "views/_views-filters.scss";
+
 // Import your components here.
 @import "components/breadcrumb";
 @import "components/hero";
 @import "components/flexbox";
 @import "components/footer";
+@import "components/tabs";

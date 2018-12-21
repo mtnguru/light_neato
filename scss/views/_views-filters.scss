@@ -1,0 +1,46 @@
+.outer-wrapper {
+  margin: 0 2em;
+}
+.views-form,
+.view-filters {
+
+  .form-type-select {
+    select {
+      padding: 6px;
+      border-radius: 5px;
+    } 
+  }
+
+  .form--inline {
+    background-color: shade($base-background-color, 20%);
+    margin-bottom: 10px;
+    border-radius: $base-border-radius;
+    padding: 0 15px;
+    .form-actions {
+      margin-bottom: 1.2em;
+    }
+    .form-item {
+      margin: .5em 1em 0 0;
+    }
+  }
+
+  .form-wrapper {
+//  background: shade($base-background-color, 25%);
+    padding: 0 5px;
+    .form-actions {
+      margin-bottom: 1.2em;
+      padding: 0;
+    }
+    .form-item {
+      margin: .5em 1em 0 0;
+    }
+  }
+
+  label.media-library-select-all {
+    margin-left: 10px;
+  }
+}
+
+#edit-actions {
+  margin-top: 20px;
+}

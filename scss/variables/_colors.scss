@@ -11,18 +11,26 @@ $base-accent-color: #477DCA !default;
 $base-link-color: $base-accent-color !default;
 $action-color: #477DCA !default;
 
-
 $color-red: #ff2222;
 $color-orange: #ff7711;
+$color-light-orange: #ffbb22;
 $color-yellow: #ffff00;
+$color-light-yellow: #ffff55;
 $color-green: #22ff22;
+$color-light-green: #88ff88;
 $color-cyan: #00ffff;
 $color-blue: #4444ff;
+$color-light-blue: #7799ff;
 $color-purple: #ee22ff;
 $color-dark-purple: #6622cc;
+$color-light-purple: #bb88ff;
 $color-black: #000000;
 $color-white: #fefefe;
 $color-grey: #888888;
+$color-brown: #553311;
+
+// Heading colors.
+$heading-color: $color-brown;
 
 // Table colors.
 $table-border-color: $base-border-color;
@@ -49,8 +57,8 @@ $breadcrumb-border-color: $base-border-color;
 $breadcrumb-arrow-color: $breadcrumb-border-color;
 $breadcrumb-background: $base-background-color;
 $breadcrumb-inactive-hover-color: $breadcrumb-background;
-$breadcrumb-color: $medium-gray;
-$breadcrumb-color-hover: $action-color;
+$breadcrumb-color: $base-font-color;
+$breadcrumb-color-hover: $link-color;
 $breadcrumb-color-active: $breadcrumb-color;
 
 // Flexbox colors.

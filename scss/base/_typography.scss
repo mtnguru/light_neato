@@ -1,5 +1,6 @@
 body {
   color: $base-font-color;
+  background-color: $base-background-color;
   font-family: $base-font-family;
   font-size: $base-font-size;
   line-height: $base-line-height;
@@ -11,6 +12,7 @@ h3,
 h4,
 h5,
 h6 {
+  color: $az-header-foreground;
   font-family: $heading-font-family;
   font-size: $base-font-size;
   line-height: $heading-line-height;
@@ -22,14 +24,14 @@ p {
 }
 
 a {
-  color: $action-color;
+  color: $link-color;
   text-decoration: none;
   transition: color $base-duration $base-timing;
 
   &:active,
   &:focus,
   &:hover {
-    color: shade($action-color, 25%);
+    color: shade($link-color, 25%);
   }
 }
 

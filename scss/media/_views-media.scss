@@ -1,12 +1,17 @@
-
 form.media-library-views-form {
+
+  .media-library-views-form__header {
+    display: none;
+  }
   .media-library-item {
-    margin: 3px !important;
-    border: 1px solid $color-grey;
+    margin: 4px !important;
+    border: 1px solid tint($az-item-background, 15%);
     border-radius: 5px;
     overflow: hidden;
     line-height: 1.2;
     height: 270px;
+    background-color: $az-item-background;
+    padding: 3px;
   }
 
   .views-list {
@@ -16,8 +21,8 @@ form.media-library-views-form {
 
   .name {
     font-size: 90%;
-    color: $color-dark-purple;
-    height: 36px;
+    color: $link-color;
+    max-height: 36px;
     overflow: hidden;
   }
 
@@ -28,7 +33,7 @@ form.media-library-views-form {
 
   .mid {
     font-size: 85%;
-    margin: 3px 3px 0;
+    line-height: 1.5;
   }
 
   .image {
@@ -62,13 +67,13 @@ form.media-library-views-form {
     padding: 1px 1px 0;
 
     .form-type-checkbox {
-      margin: 0 5px;
+      margin: 0;
     }
 
     input {
-      margin: 5px 0px 1px;
+      margin: 1px 0px 0px;
       line-height: 0;
-      transform: scale(1.5);
+      transform: scale(1.2);
     }
   }
 }

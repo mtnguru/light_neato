@@ -1,0 +1,17 @@
+header#site-header {
+  background-color: $az-header-background;
+  .site-name {
+    padding: 15px;
+    font-size: 36px;
+    font-weight: bold;
+    a {
+      color: $az-header-foreground;
+    }
+  }
+  .site-logo {
+    display: none;
+  }
+  nav {
+    display: none;
+  }
+}

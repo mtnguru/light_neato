@@ -22,11 +22,14 @@ select {
   display: block;
   font-family: $base-font-family;
   font-size: $base-font-size;
+  background-color: tint($base-background-color, 10%);
+  border: 1px solid $base-border-color;
+  border-radius: 5px;
 }
 
 #{$all-text-inputs},
 select[multiple] {
-  background-color: $base-background-color;
+  background-color: tint($base-background-color, 10%);
   border: $base-border;
   border-radius: $base-border-radius;
   box-shadow: $form-box-shadow;
@@ -81,4 +84,8 @@ select {
   margin-bottom: $base-spacing;
   max-width: 100%;
   width: auto;
+}
+
+.field--type-image {
+  margin-top: 20px;
 }

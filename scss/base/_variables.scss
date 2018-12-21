@@ -1,3 +1,13 @@
+$az-base-background: #2a154a;
+$az-base-foreground: #eeeeee;
+$az-base-link: #00fddc;
+$az-header-background: #102a15;
+$az-header-foreground: #e7ff86;
+$az-highlight: #aa3300;
+$az-item-background: $az-header-background;
+$az-border-color: #60258a;
+
+
 // Typography
 $base-font-family: $helvetica;
 $heading-font-family: $base-font-family;
@@ -10,7 +20,7 @@ $base-line-height: 1.3;
 $heading-line-height: 1.2;
 
 // Other Sizes
-$base-border-radius: 3px;
+$base-border-radius: 5px;
 $base-spacing: $base-line-height * 1em;
 $small-spacing: $base-spacing / 2;
 $base-z-index: 0;
@@ -22,16 +32,25 @@ $medium-gray: #999;
 $light-gray: #ddd;
 
 // Font Colors
-$base-font-color: $dark-gray;
-$action-color: $blue;
+$base-font-color: $az-base-foreground;
 
 // Border
-$base-border-color: $light-gray;
+$base-border-color: $az-border-color;
 $base-border: 1px solid $base-border-color;
 
 // Background Colors
-$base-background-color: #fff;
+$base-background-color: $az-base-background;
 $secondary-background-color: tint($base-border-color, 75%);
+
+$active-background-color: tint($base-background-color, 15%);
+$active-color: shade($az-highlight, 15%);
+
+$hover-background-color: tint($base-background-color, 25%);
+$hover-color: shade($az-highlight, 25%);
+
+// Component Colors
+$action-color: $az-highlight;
+$link-color: $az-base-link;
 
 // Forms
 $form-box-shadow: inset 0 1px 3px rgba(#000, 0.06);

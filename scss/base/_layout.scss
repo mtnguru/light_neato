@@ -4,7 +4,7 @@ body {
 
   main {
     @include outer-container;
-    padding: 3em 0;
+    padding: 2em 0;
   }
 
   &.no-sidebars {

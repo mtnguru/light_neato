@@ -1,0 +1,12 @@
+.tabs {
+  li {
+    a {
+      &.is-active {
+        background-color: $active-background-color;
+      }
+      &:hover {
+        background-color: $hover-background-color;
+      }
+    }
+  }
+}
