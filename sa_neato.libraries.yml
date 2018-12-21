@@ -3,6 +3,7 @@ global-styling:
   css:
     base:
       css/sa_neato.css: {}
+      css/imager_custom.css: {}
 global-scripts:
   version: VERSION
   js:
