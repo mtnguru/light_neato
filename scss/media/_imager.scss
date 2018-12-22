@@ -1,21 +1,14 @@
 #imager-viewer {
   #imager-canvas-wrapper {
-    #imager-image {
-//    display: none;
-    }
     #imager-canvas {
       vertical-align: bottom;
-//    border: 5px solid #ef0;
       background: #2d2d49;
-//    z-index: 605;
     }
 
     #imager-canvas2 {
       position: absolute;
       vertical-align: bottom;
-//    border: 5px solid #e0f;
       background: darkmagenta;
-//    z-index: 606;
       display: none;
     }
   }

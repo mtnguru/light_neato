@@ -1,12 +1,15 @@
-$az-base-background: #2a154a;
+$az-base-background: #44318d;
 $az-base-foreground: #eeeeee;
-$az-base-link: #00fddc;
-$az-header-background: #102a15;
+$az-base-link: #00eeee;
+$az-action-background: #7493a6;
+$az-header-background: #2a1b3d;
 $az-header-foreground: #e7ff86;
-$az-highlight: #aa3300;
-$az-item-background: $az-header-background;
+$az-header-foreground1: #e7ff86;
+$az-highlight: #d83f87;
+$az-item-background: tint($az-base-background, 8%);
 $az-border-color: #60258a;
-
+$az-white: #eeeeee;
+$az-black: #111111;
 
 // Typography
 $base-font-family: $helvetica;
@@ -49,7 +52,7 @@ $hover-background-color: tint($base-background-color, 25%);
 $hover-color: shade($az-highlight, 25%);
 
 // Component Colors
-$action-color: $az-highlight;
+$action-color: $az-action-background;
 $link-color: $az-base-link;
 
 // Forms

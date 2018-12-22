@@ -42,7 +42,7 @@ select[multiple] {
   width: 100%;
 
   &:hover {
-    border-color: shade($base-border-color, 20%);
+    border-color: shade($base-border-color, 15%);
   }
 
   &:focus {
